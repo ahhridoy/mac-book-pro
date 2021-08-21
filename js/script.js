@@ -66,12 +66,12 @@ function updateTotal() {
 
 // Promo Code Apply
 
-const inputBox = document.getElementById('input-box');
-const applyButton = document.getElementById('apply-button');
+// const inputBox = document.getElementById('input-box');
+// const applyButton = document.getElementById('apply-button');
 
-applyButton.addEventListener('click', function() {
-    if(inputBox.value == 'stevekaku') {
-       const totalPrice = parseInt(totalAll.innerText) / 20;
-       return totalPrice;
-    }
-});
+// applyButton.addEventListener('click', function() {
+//     if(inputBox.value == 'stevekaku') {
+//        const totalPrice = parseInt(totalAll.innerText) / 20;
+//        return totalPrice;
+//     }
+// });
