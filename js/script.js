@@ -65,13 +65,14 @@ function updateTotal() {
 };
 
 // Promo Code Apply
+const inputBox = document.getElementById('input-box')
 
-// const inputBox = document.getElementById('input-box');
-// const applyButton = document.getElementById('apply-button');
-
-// applyButton.addEventListener('click', function() {
-//     if(inputBox.value == 'stevekaku') {
-//        const totalPrice = parseInt(totalAll.innerText) / 20;
-//        return totalPrice;
-//     }
-// });
+inputBox.addEventListener('keyup', function(event) {
+    const applyButton = document.getElementById('apply-button');
+    if(event.target.value == 'stevekaku') {
+        applyButton.removeAttribute('disabled');
+    }
+    else {
+        applyButton.setAttribute('disabled', true);
+    }
+});
