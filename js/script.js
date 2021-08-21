@@ -65,7 +65,7 @@ function updateTotal() {
 };
 
 // Promo Code Apply
-/*
+
 const inputBox = document.getElementById('input-box');
 const applyButton = document.getElementById('apply-button');
 
@@ -75,4 +75,3 @@ applyButton.addEventListener('click', function() {
        return totalPrice;
     }
 });
-*/
